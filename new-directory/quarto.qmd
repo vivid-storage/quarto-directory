@@ -1,0 +1,29 @@
+---
+title: Python Quarto Document
+---
+
+# Introduction
+
+This is a Python Quarto document example that includes images.
+
+# Python Code Execution
+
+```{python}
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Generate some sample data
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+# Plot the data
+plt.figure(figsize=(8, 6))
+plt.plot(x, y, label='sin(x)')
+plt.xlabel('x')
+plt.ylabel('sin(x)')
+plt.title('Plot of sin(x)')
+plt.legend()
+plt.grid(True)
+plt.savefig('sin_plot.png')  # Save the plot as an image
+plt.show()
+```
