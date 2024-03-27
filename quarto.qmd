@@ -6,6 +6,8 @@ title: Python Quarto Document
 
 This is a Python Quarto document example that includes images.
 
+Top Directory!
+
 # Python Code Execution
 
 ```{python}
